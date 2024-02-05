@@ -23,7 +23,7 @@ function Navbar() {
           </div>
 
         {/* Logo */}
-        <div className="flex items-center ml-8">
+        <div className="flex items-center ml-4">
           <a href="#">
             <img src={logoName} alt="Logo" className="h-14" />
           </a>
