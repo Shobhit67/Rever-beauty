@@ -31,7 +31,7 @@ function Navbar() {
 
         {/* Navigation links */}
         <ul className="flex space-x-8 justify-between">
-          <li className="hidden lg:block">
+          <li>
             <a href="#">
               <CiSearch className="text-2xl" />
             </a>
@@ -46,7 +46,7 @@ function Navbar() {
               <CiUser className="text-2xl" />
             </a>
           </li>
-          <li>
+          <li className="hidden lg:block">
             <a href="#">
               <CiShoppingCart className="text-2xl" />
             </a>

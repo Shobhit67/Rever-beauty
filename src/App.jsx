@@ -11,8 +11,9 @@ function App() {
       <div className="container mx-auto px-4 py-4">
         <div className="grid grid-cols-3 gap-4">
           <Categories title="Face" />
-          <Categories title="Face" />
-          <Categories title="Face" />
+          <Categories title="Makeup" />
+          <Categories title="Skin" />
+          <Categories title="Hair" />
         </div>
       </div>
       <NavBottom />

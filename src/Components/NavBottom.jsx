@@ -4,9 +4,9 @@ import { CiHeart, CiUser } from "react-icons/ci";
 
 function NavBottom() {
   return (
-    <nav className="shadow-xl z-10 p-4 pb-6 fixed bottom-0 w-full bg-white visible lg:hidden border-t-4">
+    <nav className="shadow-xl py-4 pb-6 fixed bottom-0 w-full bg-white visible lg:hidden border-t-4">
 
-      <ul className="border-red-400 container mx-auto flex justify-between ">
+      <ul className="container mx-auto flex justify-between px-8">
         <li className="flex">
           <a href="#">
             <CiSearch className="text-2xl" />
