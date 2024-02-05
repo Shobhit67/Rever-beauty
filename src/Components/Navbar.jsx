@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="shadow-lg p-4 fixed w-full bg-white">
       <div className="container mx-auto flex justify-between items-center">
         {/* Hamburger icon */}
-          <div className="flex items-center">
+          <div className="flex items-center ">
             <button className="block focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ function Navbar() {
           </div>
 
         {/* Logo */}
-        <div className="flex items-center ml-4">
+        <div className="flex items-center lg:ml-16 ">
           <a href="#">
             <img src={logoName} alt="Logo" className="h-14" />
           </a>
