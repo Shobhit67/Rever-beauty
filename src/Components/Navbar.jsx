@@ -1,15 +1,14 @@
 import { CiShoppingCart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
-import { CiHeart, CiUser  } from "react-icons/ci";
+import { CiHeart, CiUser } from "react-icons/ci";
 import logoName from "../images/logo-name.jpeg";
 
 function Navbar() {
   return (
-    <nav className="shadow-lg p-4">
-      <div className="container mx-auto flex justify-between items-center ">
+    <nav className="shadow-lg p-4 fixed w-full bg-white">
+      <div className="container mx-auto flex justify-between items-center">
         {/* Hamburger icon */}
-        <div className="flex items-center ">
-          <div className="flex items-center ">
+          <div className="flex items-center">
             <button className="block focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -22,30 +21,29 @@ function Navbar() {
               </svg>
             </button>
           </div>
-        </div>
 
         {/* Logo */}
-        <div className="flex items-center ">
-           <a href="#"><img src={logoName} alt="Logo" className="h-14" /></a>
+        <div className="flex items-center ml-8">
+          <a href="#">
+            <img src={logoName} alt="Logo" className="h-14" />
+          </a>
         </div>
 
         {/* Navigation links */}
-        <ul className="flex space-x-8 justify-between font-normal ">
-          <li>
+        <ul className="flex space-x-8 justify-between">
+          <li className="hidden lg:block">
             <a href="#">
-              <CiSearch  className="text-2xl"/>
+              <CiSearch className="text-2xl" />
             </a>
           </li>
-          <li>
+          <li className="hidden lg:block">
             <a href="#">
               <CiHeart className="text-2xl" />
-
             </a>
           </li>
-          <li>
+          <li className="hidden lg:block">
             <a href="#">
               <CiUser className="text-2xl" />
-
             </a>
           </li>
           <li>

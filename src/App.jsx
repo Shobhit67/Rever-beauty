@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Categories from "./Components/Categories";
+import NavBottom from "./Components/NavBottom";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
           <Categories title="Face" />
         </div>
       </div>
+      <NavBottom />
+
     </>
   );
 }
