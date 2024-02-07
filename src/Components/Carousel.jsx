@@ -21,7 +21,7 @@ const Carousel = () => {
         <img
           src={models[currentImg].imgUrl}
           alt={`Model ${models[currentImg].id}`}
-          className="carousel-img object-cover w-screen h-screen "
+          className="carousel-img object-cover w-full h-full "
         />
       </div>
     </div>
