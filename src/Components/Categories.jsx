@@ -3,7 +3,7 @@ import HairAmlaImg1 from "../images/HAIR/amla Ritha sikkai shampoo/img1.jpg";
 function Categories(props) {
   return (
     <>
-      <div className="rounded overflow-hidden shadow-lg bg-red-300 h-full ">
+      <div className="rounded overflow-hidden shadow-lg bg-gray-300  ">
         <div className="p-20 text-center">
           <img
             className="w-20 rounded-full mb-8"

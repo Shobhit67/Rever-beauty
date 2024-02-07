@@ -11,7 +11,6 @@ function Navbar() {
           <div className="flex items-center ">
             <button className="block focus:outline-none">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -25,7 +24,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center lg:ml-16 ">
           <a href="#">
-            <img src={logoName} alt="Logo" className="h-14" />
+            <img src={logoName} alt="Logo" className="lg:h-14 h-10" />
           </a>
         </div>
 
