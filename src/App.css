@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.img-box {
+  height: 600px;
+}
 
+@media (max-width: 768px) {
+  .img-box {
+    height: 100%;
+  }
+}

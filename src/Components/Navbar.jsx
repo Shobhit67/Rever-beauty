@@ -5,7 +5,7 @@ import logoName from "../images/logo-name.jpeg";
 
 function Navbar() {
   return (
-    <nav className="shadow-lg p-4 fixed w-full bg-white">
+    <nav className="shadow-lg p-4 bg-white fixed top-0 left-0 w-full "> 
       <div className="container mx-auto flex justify-between items-center">
         {/* Hamburger icon */}
           <div className="flex items-center ">
