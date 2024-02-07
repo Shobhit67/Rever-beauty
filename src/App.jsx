@@ -11,9 +11,11 @@ function App() {
 
       <Carousel />
 
-      <div className="container mx-auto p-4 m-10 ">
-        <h1 className="mb-10 text-3xl text-center">Carousel</h1>
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-3 ">
+      <div className="container mx-auto my-2 p-2 mb-20 ">
+        <h1 className="mb-4 lg:text-4xl text-3xl text-center">
+          Explore Our Collection
+        </h1>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 ">
           <Categories title="Face" />
           <Categories title="Makeup" />
           <Categories title="Skin" />
@@ -21,7 +23,6 @@ function App() {
         </div>
       </div>
 
-      
       <NavBottom />
     </>
   );

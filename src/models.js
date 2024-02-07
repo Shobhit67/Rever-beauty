@@ -4,8 +4,6 @@ import m6 from "./images/models/m6.PNG";
 import m7 from "./images/models/m7.PNG";
 import m8 from "./images/models/m8.PNG";
 import m9 from "./images/models/m9.jpg";
-import m10 from "./images/models/m10.jpg";
-import m11 from "./images/models/m11.jpg";
 
 const models = [
   {
@@ -31,16 +29,6 @@ const models = [
   {
     id: 5,
     imgUrl: m9,
-    name: "D",
-  },
-  {
-    id: 6,
-    imgUrl: m10,
-    name: "D",
-  },
-  {
-    id: 7,
-    imgUrl: m11,
     name: "D",
   },
 ];

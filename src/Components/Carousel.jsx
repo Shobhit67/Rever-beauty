@@ -16,14 +16,12 @@ const Carousel = () => {
   }, [currentImg]);
 
   return (
-    <div className="">
-      <div className="mt-12 pt-12 px-1">
-        <img
-          src={models[currentImg].imgUrl}
-          alt={`Model ${models[currentImg].id}`}
-          className="carousel-img object-cover w-full h-full "
-        />
-      </div>
+    <div className="lg:px-2 px-1 my-10 py-10">
+      <img
+        src={models[currentImg].imgUrl}
+        alt={`Model ${models[currentImg].id}`}
+        className="carousel-img object-cover w-full h-full shadow-lg"
+      />
     </div>
   );
 };
