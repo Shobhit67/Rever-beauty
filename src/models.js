@@ -8,26 +8,26 @@ import m10 from "./images/models/m10.jpg";
 import m11 from "./images/models/m11.jpg";
 
 const models = [
-  // {
-  //   id: 1,
-  //   imgUrl: m5,
-  //   name: "A",
-  // },
-  // {
-  //   id: 2,
-  //   imgUrl: m6,
-  //   name: "B",
-  // },
-  // {
-  //   id: 3,
-  //   imgUrl: m7,
-  //   name: "C",
-  // },
-  // {
-  //   id: 4,
-  //   imgUrl: m8,
-  //   name: "D",
-  // },
+  {
+    id: 1,
+    imgUrl: m5,
+    name: "A",
+  },
+  {
+    id: 2,
+    imgUrl: m6,
+    name: "B",
+  },
+  {
+    id: 3,
+    imgUrl: m7,
+    name: "C",
+  },
+  {
+    id: 4,
+    imgUrl: m8,
+    name: "D",
+  },
   {
     id: 5,
     imgUrl: m9,
