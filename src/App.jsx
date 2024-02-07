@@ -12,7 +12,7 @@ function App() {
       <Carousel />
 
       <div className="container mx-auto p-4 m-10 ">
-        <h1 className="mb-10 text-4xl">Carousel</h1>
+        <h1 className="mb-10 text-3xl text-center">Carousel</h1>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-3 ">
           <Categories title="Face" />
           <Categories title="Makeup" />
