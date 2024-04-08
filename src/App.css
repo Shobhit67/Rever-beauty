@@ -4,14 +4,11 @@
 
 
 
-.card .category-img {
-  width: 100%;
-  height: 350px;
-}
 
 @media (max-width: 768px) {
     .card .category-img {
       width: 95%;
       height: 320px;
     }
-  }
+  } 
+  
