@@ -4,7 +4,7 @@ function Categories(props) {
     <>
       <div className="max-w-md mx-auto bg-transparent shadow-lg rounded-lg overflow-hidden">
         <img
-          className="w-full h-64 w-65 object-cover"
+          className="w-full h-64 object-cover"
           src={props.img}
           alt="Card"
         />
