@@ -11,4 +11,30 @@
       height: 320px;
     }
   } 
+
+  /* In your CSS file or inline styles */
+.side-navbar {
+  /* Your side navbar styles */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100vh;
+  background-color: #fff;
+  z-index: 10; /* Ensure navbar is on top */
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth closing */
+}
+
+.side-navbar.hidden {
+  transform: translateX(-100%); /* Hide the navbar off-screen */
+}
+
+.close-button {
+  /* Styles for the close button */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
   

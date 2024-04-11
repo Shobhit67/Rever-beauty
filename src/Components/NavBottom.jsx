@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { CiHeart, CiUser } from "react-icons/ci";
@@ -13,21 +14,21 @@ function NavBottom() {
         </li>
 
         <li className="flex">
-          <a href="#">
+          <Link to="/favourites">
             <CiHeart className="text-2xl" />
-          </a>
+          </Link>
         </li>
 
         <li className="flex">
-          <a href="#">
-            <CiUser className="text-2xl" />
-          </a>
+          <Link to="/login">
+            <CiUser className="text-2xl cursor-pointer" />
+          </Link>
         </li>
 
         <li className="flex">
-          <a href="#">
+          <Link to="/cart">
             <CiShoppingCart className="text-2xl" />
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

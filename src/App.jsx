@@ -1,29 +1,28 @@
 import "./App.css";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LoginForm from "./Components/LoginForm";
+import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
+import Favourites from "./Components/Favourites";
+import Cart from "./Components/Cart";
+import RegisterForm  from "./Components/RegisterForm";
 import NavBottom from "./Components/NavBottom";
-import Carousel from "./Components/Carousel";
-import Cards from "./Components/Cards";
-import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Carousel />
 
-      <div className="container mx-auto my-2 p-2 mb-20">
-        <h1 className="mb-4 lg:text-4xl text-3xl text-center">
-          Explore Our Collection
-        </h1>
-        <div className="cards px-6">
-          <Cards />
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/favourites" element={<Favourites />} />
+        <Route path="/cart" element = {<Cart />} />
+        <Route path="/register" element = {<RegisterForm />} />
 
-      <Footer />
-      <NavBottom />
-    </>
+      </Routes>
+        <NavBottom />
+    </BrowserRouter>
   );
 }
 
