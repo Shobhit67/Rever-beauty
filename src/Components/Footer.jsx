@@ -54,7 +54,7 @@ function Footer() {
                 </a>
               </li>
               <li className="mr-4">
-                <a href="https://www.instagram.com/giselacosmetics.in?igsh=dHh4MHpmNThhc3Rw">
+                <a href="https://www.instagram.com/reverbeauty.in?igsh=MXJ5eWZ3bTcxZmk2OA==s">
                   <i>
                     <FaInstagram className="text-2xl" />
                   </i>
